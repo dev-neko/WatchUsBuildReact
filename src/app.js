@@ -7,6 +7,7 @@ import Layout from './layout/layout';
 import BlogPage    from './pages/blog';
 import VideoPage   from './pages/video';
 import PicturePage from './pages/picture';
+import AboutPage   from './pages/about';
 
 const app = (
   <Router history={hashHistory} >
@@ -15,6 +16,7 @@ const app = (
       <Route path="blog"    component={BlogPage} />
       <Route path="video"   component={VideoPage} />
       <Route path="picture" component={PicturePage} />
+      <Route path="about"   component={AboutPage} />
     </Route>
   </Router>
 )
