@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "author": "TEST1",
+    "body": "Hello world!!",
+    "avatarUrl": "assets/images/avatars/avatar-default.png"
+  },
+  {
+    "id": 2,
+    "author": "TEST2",
+    "body": "Hoge!!",
+    "avatarUrl": "assets/images/avatars/avatar-benderson.png"
+  }
+]
