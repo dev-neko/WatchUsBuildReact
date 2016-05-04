@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import jQuery from 'jQuery';
-import {Router, Route, Redirect} from 'react-router';
+import {Router, Route, Redirect, hashHistory} from 'react-router';
 import Layout from './layout/layout';
 
 import BlogPage    from './pages/blog';
@@ -9,7 +9,7 @@ import VideoPage   from './pages/video';
 import PicturePage from './pages/picture';
 
 const app = (
-  <Router>
+  <Router history={hashHistory} >
     <Redirect from="/" to="/blog" />
     <Route path="/" component={Layout}>
       <Route path="blog"    component={BlogPage} />
